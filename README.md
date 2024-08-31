@@ -1,0 +1,4 @@
+This project aims to utilize machine learning techniques to predict the relevance of loan applicants' profiles based on key features such as Marital Status, Education, Applicant Income, Credit History, and others. By analyzing and modeling these factors, the project seeks to assist banks in automating the loan approval process and improving efficiency.
+The dataset is loaded from a CSV file named loan_approval_prediction_11.csv.
+The code iterates through the columns of the dataset, identifies those with object data types (likely categorical), and encodes them using label encoding. This converts categorical values into numerical representations that machine learning algorithms can understand.
+The code creates a heatmap to visualize the correlations between different features in the dataset. This helps identify relationships and potential dependencies among variables.
